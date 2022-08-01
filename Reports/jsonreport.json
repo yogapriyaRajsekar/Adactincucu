@@ -1,0 +1,374 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login Page",
+        "description": "",
+        "id": "hotel-booking-application;login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6381926300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch The Given Url",
+            "match": {
+              "location": "StepDefenition.user_Launch_The_Given_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 500691300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enter The Username In The \"Yogapriya27\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yogapriya27",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefenition.user_Enter_The_Username_In_The_Field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 246818000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enter The PasswordIn The \"yogapriya\" Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "yogapriya",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefenition.user_Enter_The_PasswordIn_The_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2675660400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks The Login Button Which Navigates To The Search Hotel Page",
+            "match": {
+              "location": "StepDefenition.user_clicks_The_Login_Button_Which_Navigates_To_The_Search_Hotel_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Second Page",
+        "description": "",
+        "id": "hotel-booking-application;second-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1084586200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user Enter The Location In The Location Field",
+            "match": {
+              "location": "StepDefenition.user_Enter_The_Location_In_The_Location_Field()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 525948200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user Enter The Hotel In The Hotel Field",
+            "match": {
+              "location": "StepDefenition.user_Enter_The_Hotel_In_The_Hotel_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292229900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user Select The RoomType In The RoomType Field",
+            "match": {
+              "location": "StepDefenition.user_Select_The_RoomType_In_The_RoomType_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1038788700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user Select The No Of Rooms In The No Of Rooms Field",
+            "match": {
+              "location": "StepDefenition.user_Select_The_No_Of_Rooms_In_The_No_Of_Rooms_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295334100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user Select The AdultRoom In The AdultRoom Field",
+            "match": {
+              "location": "StepDefenition.user_Select_The_AdultRoom_In_The_AdultRoom_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1311684600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Select The ChildRoom In The ChildRoom Field",
+            "match": {
+              "location": "StepDefenition.user_Select_The_ChildRoom_In_The_ChildRoom_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2762674400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Clicks The Submit Button",
+            "match": {
+              "location": "StepDefenition.user_Clicks_The_Submit_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Third Page",
+        "description": "",
+        "id": "hotel-booking-application;third-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 616422600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user Clicks The RadioButton",
+            "match": {
+              "location": "StepDefenition.user_Clicks_The_RadioButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1859044600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user Click The Submit Button",
+            "match": {
+              "location": "StepDefenition.user_Click_The_Submit_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Fourth Page",
+        "description": "",
+        "id": "hotel-booking-application;fourth-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 596816100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user Enter The FirstName In The FirstName Field",
+            "match": {
+              "location": "StepDefenition.user_Enter_The_FirstName_In_The_FirstName_Field()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1033920900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user Enter The LastName In The LastName Field",
+            "match": {
+              "location": "StepDefenition.user_Enter_The_LastName_In_The_LastName_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1231508200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user Select The Address In The Address Field",
+            "match": {
+              "location": "StepDefenition.user_Select_The_Address_In_The_Address_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2163989200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user Select The CardNo In The CardNo Field",
+            "match": {
+              "location": "StepDefenition.user_Select_The_CardNo_In_The_CardNo_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 675223400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user Select The CardType In The CardType Field",
+            "match": {
+              "location": "StepDefenition.user_Select_The_CardType_In_The_CardType_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 626060200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user Select The CardExpiry Month In The CardExpiry Month Field",
+            "match": {
+              "location": "StepDefenition.user_Select_The_CardExpiry_Month_In_The_CardExpiry_Month_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 651682900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "And user Select The CardExpiry Year In The CardExpiry Year Field",
+            "match": {
+              "location": "StepDefenition.and_user_Select_The_CardExpiry_Year_In_The_CardExpiry_Year_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 746034400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user Select The CVV In The CVV Field",
+            "match": {
+              "location": "StepDefenition.user_Select_The_CVV_In_The_CVV_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 368409300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user Clicks The Book Button",
+            "match": {
+              "location": "StepDefenition.user_Clicks_The_Book_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "Fifth Page",
+        "description": "",
+        "id": "hotel-booking-application;fifth-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 136650900,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user Scroll Down",
+            "match": {
+              "location": "StepDefenition.user_Scroll_Down()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6005543700,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user Takes Thread Sleep",
+            "match": {
+              "location": "StepDefenition.user_Takes_Thread_Sleep()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2153776000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user Clicks Logout Button",
+            "match": {
+              "location": "StepDefenition.user_Clicks_Logout_Button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Hotel Booking Application",
+    "description": "",
+    "id": "hotel-booking-application",
+    "keyword": "Feature",
+    "uri": "adactin.feature"
+  }
+]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="35.981425">
+<testcase classname="Hotel Booking Application" name="Login Page" time="9.805096">
+<system-out><![CDATA[Given User Launch The Given Url.............................................passed
+When User Enter The Username In The "Yogapriya27" Field.....................passed
+And User Enter The PasswordIn The "yogapriya" Field.........................passed
+Then user clicks The Login Button Which Navigates To The Search Hotel Page..passed
+]]></system-out>
+</testcase>
+<testcase classname="Hotel Booking Application" name="Second Page" time="7.311246">
+<system-out><![CDATA[Given user Enter The Location In The Location Field.........................passed
+When user Enter The Hotel In The Hotel Field................................passed
+And user Select The RoomType In The RoomType Field..........................passed
+And user Select The No Of Rooms In The No Of Rooms Field....................passed
+And user Select The AdultRoom In The AdultRoom Field........................passed
+And user Select The ChildRoom In The ChildRoom Field........................passed
+Then user Clicks The Submit Button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hotel Booking Application" name="Third Page" time="2.475467">
+<system-out><![CDATA[Given user Clicks The RadioButton...........................................passed
+Then user Click The Submit Button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hotel Booking Application" name="Fourth Page" time="8.093645">
+<system-out><![CDATA[Given user Enter The FirstName In The FirstName Field.......................passed
+When user Enter The LastName In The LastName Field..........................passed
+And user Select The Address In The Address Field............................passed
+And user Select The CardNo In The CardNo Field..............................passed
+And user Select The CardType In The CardType Field..........................passed
+And user Select The CardExpiry Month In The CardExpiry Month Field..........passed
+And And user Select The CardExpiry Year In The CardExpiry Year Field........passed
+And user Select The CVV In The CVV Field....................................passed
+Then user Clicks The Book Button............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hotel Booking Application" name="Fifth Page" time="8.295971">
+<system-out><![CDATA[Given user Scroll Down......................................................passed
+When user Takes Thread Sleep................................................passed
+Then user Clicks Logout Button..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
